@@ -1,0 +1,49 @@
+body {
+  background-color: #131426 !important;
+  color: aliceblue !important;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.btn-rhizom{
+  background-color: #e9bd75 ;
+  font-weight:500;
+}
+
+.img-rhizom{
+  position: absolute;
+  top: -200px;
+  left: 300px;
+  width: 1500px;
+}
+.text-rhizom{
+  color: #e9bd75;
+}
+
+.swal2-popup{
+  background-color: #131426 !important;
+  color: aliceblue !important;
+}
+
+.swal2-styled.swal2-confirm {
+  background-color: #e9bd75 !important;
+  color: rgb(0, 0, 0) !important;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+input[type=number] { -moz-appearance:textfield; }
